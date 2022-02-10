@@ -1,1 +1,100 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(182, 244, 146),
+    rgb(51, 139, 147)
+  );
+}
+
+.card {
+  top: 50px;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  width: 150px;
+  height: 220px;
+  border-radius: 10px;
+  background: #fff;
+  -webkit-box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+}
+.joker:before {
+  content: "🤡";
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+.joker:after {
+  content: "🤡";
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.suitdiamond:before {
+  content: "\2666";
+  color: #ff0000;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+.suitdiamond:after {
+  content: "\2666";
+  color: #ff0000;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.suithearts:before {
+  content: "\2665";
+  color: #ff0000;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+
+.suithearts:after {
+  content: "\2665";
+  color: #ff0000;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.suitclubs:before {
+  content: "\2663";
+  color: #000;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+.suitclubs:after {
+  content: "\2663";
+  color: #000;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.suitspades:before {
+  content: "\2660";
+  color: #000;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+.suitspades:after {
+  content: "\2660";
+  color: #000;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.btn {
+  margin-left: 465px;
+  margin-top: 100px;
+  position: relative;
+  align-items: center;
+}
